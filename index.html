@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <!-- Animaciones CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Victoria Lee | Portfolio Dev</title>
+</head>
+<body>
+    <!--Barra de Navegación-->
+    <nav>
+        <h1>Victoria Lee</h1>
+        <ul>
+            <li><a href="#about" class="nav_link">About</a></li>
+            <li><a href="#skills" class="nav_link">Skills</a></li>
+            <li><a href="#projects" class="nav_link">Projects</a></li>
+            <li><a href="#contact" class="nav_link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-outline">
+            </ion-icon>
+        </button>
+    </nav>
+
+    <!--Sección Hero-->
+    <section class="hero" id="about">
+        <img src="assets/image/imagen1.png" alt="womanintech" loading="lazy" class="hero-img"/>
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            Victoria Lee, I am a computer systems technician, with 7 semesters of experience in a Bachelor's Degree in Actuary Studies, currently studying Administrative Computer Engineering.
+          </p>
+        </div>
+      </section>
+
+    <!--Sobre mí-->
+    <section class="more-about">
+        <h2>More about me</h2>
+        <p>I currently work in a home office mode for a computer and electronics equipment store, I review the new product that is arriving and verify its correct specifications, then I publish it on its online sales site so that it is attractive for sale , I really like my job because I am constantly learning about new products launched on the market and I stay updated.</p>
+        <p>I study administrative computing engineering online at Tecmilenio, I really like taking new courses that have to do with programming and development, as well as databases and cloud servers, I also like to learn new languages, I currently have knowledge in English at level B2 and in German at level A2.</p>
+        <p>Personally, I really like swimming, watching movies and series at home when I rest, playing video games and going for walks to see new places.</p>
+    </section>
+    
+    <!--Sección Habilidades-->
+    <section class="skills" id="skills">    
+      <h2 class="skill-header">My Top Skills</h2>
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate_pulse">
+          <img src="assets/icons/bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/css3.svg" alt="" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/github.svg" alt="" loading="lazy" class="icon icon-card">
+        </div>
+        <div class="second-set animate__animated animate_pulse">
+          <img src="assets/icons/html-5.svg" alt="" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/javascript.svg" alt="" loading="lazy" class="icon icon-card">
+          <img src="assets/icons/native.svg" alt="" loading="lazy" class="icon icon-card">
+        </div>
+      </div>
+    </section>
+
+    <!--Sección Proyectos-->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container projects-card">
+          <img src="assets/image/imagenproyecto1.PNG" alt="" loading="lazy" class="project-pic">
+          <h3 class="project-title">Project 1</h3>
+          <p class="projec-details">In this project I want to present my own brand of scented candles and eco-friendly.</p>
+          <a href="https://misitiovelas.vercel.app/" target="_blank" class="project-link">Chek it out!</a>
+        </div>
+        <div class="project-container projects-card">
+          <img src="assets/image/imagenproyecto2.PNG" alt="" loading="lazy" class="project-pic">
+          <h3 class="project-title">Project 2</h3>
+          <p class="projec-details">In this project I made an interface similar to the Pinterest website, to test my knowledge of HTML5 and CSS3.</p>
+          <a href="https://interfazdepinterest-omega.vercel.app/" target="_blank" class="project-link">Chek it out!</a>
+        </div>
+        <div class="project-container projects-card">
+          <img src="assets/image/imagenproyecto3.PNG" alt="" loading="lazy" class="project-pic">
+          <h3 class="project-title">Project 3</h3>
+          <p class="projec-details">In this project I made a Beta version of an online store for my personal brand of scented candles, using HTML5, CSS3 and Java Script.</p>
+          <a href="https://mitiendaonline.vercel.app/" target="_blank" class="project-link">Chek it out!</a>
+        </div>
+      </div>
+    </section>
+
+    <!--Sección de Contacto-->
+    <!--Sección de redes sociales-->
+    <div class="socials">
+      <a href="https://github.com/VictoriaLeeAl" target="_blank"><img src="assets/icons/github.gif" alt="GitHub" loading="lazy" class="socicon"></a>
+      <a href="https://www.linkedin.com/in/victoria-lee-a6a62023b/" target="_blank"><img src="assets/icons/linkedin.gif" alt="LinkedIn" loading="lazy" class="socicon"></a>
+      <a href="https://www.instagram.com/lee_vicky23/" target="_blank"><img src="assets/icons/instagram.gif" alt="Instagram" loading="lazy" class="socicon"></a>
+    </div>
+
+    <!--Scroll button-->
+    <i class="scroll-up" id="scroll-up">
+      <img src="assets/icons/icon1.gif" class="socicon up-arrow">
+    </i>
+
+    <!--Footer-->
+    <footer>
+      <p>Built with &#x2661; by <a href="https://www.linkedin.com/in/victoria-lee-a6a62023b/" target="_blank">Victoria Lee</a></p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+</body>
+</html>
